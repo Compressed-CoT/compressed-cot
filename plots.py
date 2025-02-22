@@ -73,7 +73,6 @@ if __name__ == "__main__":
         'char_limit':         'h',
         'token_limit':        '^',
         'step_limit':         '>',
-        'letter_limit':       '<',
         'be_concise':         's',
         'default_cot':        '*',
         'no_cot':             'd',
@@ -93,7 +92,6 @@ if __name__ == "__main__":
         'char_limit': 'yellowgreen',
         'token_limit': 'blue',
         'step_limit': 'lightsteelblue',
-        'letter_limit': 'gray',
         
         'no_cot': 'limegreen',
         'only_numbers': 'gray',
@@ -109,7 +107,6 @@ if __name__ == "__main__":
         'char_limit':   [1, 10, 20, 50, 100, 500],
         'token_limit':  [1, 10, 20, 50, 100, 500],
         'step_limit':   [1, 2, 5],
-        'letter_limit': [2, 3, 5],
         'chinese_char_limit': [10, 50, 100, 500]  # if you want numeric scaling for Chinese versions
     }
 
@@ -118,7 +115,6 @@ if __name__ == "__main__":
         'char_limit':   {'min_val': 1, 'max_val': 500, 'min_size': 50,   'max_size': 300},
         'token_limit':  {'min_val': 1, 'max_val': 500, 'min_size': 100,  'max_size': 300},
         'step_limit':   {'min_val': 1, 'max_val': 5,   'min_size': 100,  'max_size': 300},
-        'letter_limit': {'min_val': 2, 'max_val': 5,   'min_size': 100,  'max_size': 300},
         'chinese_char_limit': {'min_val': 10, 'max_val': 500, 'min_size': 100, 'max_size': 300}
     }
 
