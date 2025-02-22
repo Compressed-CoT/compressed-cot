@@ -22,6 +22,7 @@ The following files are involved in reproducing the results in the paper.
 - 📂 **`token_complexity.py`** – Core script for analyzing token complexity.
 - 📂 **`plots.py`** – Reproduces plots in the paper.
 - 📂 **`tables.py`** – Reproduces tables in the paper.
+- 📂 **`cot_prompts.json`** – Chain-of-Thought prompts used to induce response length variation.
 
 In order to generate the dataset from scratch, run the following scripts
 - 📂 **`run_gsm8k.py`** – Evaluates LLMs under multiple prompts for the GSM8K dataset.
